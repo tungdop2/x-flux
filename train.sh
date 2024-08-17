@@ -1,0 +1,1 @@
+accelerate launch --config_file "accelerate_config.yaml" train_flux_lora_deepspeed.py --config "train_configs/renca.yaml"
